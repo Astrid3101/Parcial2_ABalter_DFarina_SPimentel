@@ -1,0 +1,259 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    width: auto;
+    height: 1825px;
+}
+header{
+    width: 100%;
+    height: 45%;
+    background-color: black;
+}
+section{
+    width: 100%;
+    height: 25%;
+    background-color: #43485e;
+}
+footer{
+    clear: both;
+    width: 100%;
+    height: 30%;
+    background-color: #f58a1b;
+    text-align: center;
+    color: white;
+}
+.fondo{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+.menu_principal{
+    position: absolute;
+    top: 5%;
+    background-color: transparent;
+}
+.menu_principal nav ul{
+    list-style-type: none;
+    padding-left: 70%;
+    }
+.menu_principal hr{
+    width: 84%;
+}
+        
+.menu{
+    margin-bottom: 30px;
+    display: inline-flex;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    background-color: transparent;
+    
+    }
+.menu a:hover{
+    background-color: #f58a1b;
+}
+
+.titulo{
+    position: absolute;
+    top: 35%;
+    background-color: transparent;
+}
+.titulo span{
+    font-style: italic;
+    letter-spacing: 2px;
+    color: #dd4d2c;
+
+}
+.titulo h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    color: white;
+}
+.contenido_principal{
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    color: white;
+    top: 55%;
+    background-color: transparent;
+    
+}
+.contenido_principal h3{
+    text-transform: uppercase;
+}
+.contenido_principal p{
+    text-transform: capitalize;
+}
+.contenido_principal img{
+    width: 45px;
+    height: 45px;
+    filter: opacity(0.6) drop-shadow(0 0 0 #dd4d2c); 
+}
+.ubicacion{
+    width: 20%;
+    height: 90%;
+
+}
+.obras{
+    width: 20%;
+    height: 90%;
+    border-left: 3px solid orange;
+    border-right: 3px solid orange;
+}
+.eventos{
+    width: 20%;
+    height: 90%;
+}
+.botoncito{
+    background-color: transparent;
+    border-color: #e16347;
+    color: #e16347;
+    font-size: medium;
+    font-weight: 500;
+
+    letter-spacing: 2px;
+
+    border-radius: 15px;
+    border-width: 3px;
+    border-style: solid;
+
+    padding-top: 4px;
+    padding-bottom: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+
+    position: absolute;
+    left: 48%;
+    top: 85%;
+}
+.botoncito:hover{
+    background-color: white;
+}
+.infor{
+width: 100%;
+height: 100%;
+display: inline-flex;
+text-align: center;
+}
+.infor img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.infor h3{
+    text-transform: capitalize;
+}
+.artista{
+    width: 45%;
+    height: 90%;
+    padding-top: 30px;
+    margin-top: 2%;
+    margin-left: 5%;
+    background-color: transparent;
+}
+.infor button{
+    background-color: transparent;
+    border-color: #0f2237;
+    color: #0f2237;
+
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 35px;
+    padding-right: 35px;
+
+    border-radius: 20px;
+    border-style: solid;
+}
+.infor button:hover{
+    background-color: #0f2237;
+    color: white;
+}
+.obras_destacadas{
+    width: 45%;
+    height: 90%;
+    padding-top: 30px;
+    margin-top: 2%;
+    background-color: transparent;
+}
+footer form{
+    padding-top: 90px;
+}
+footer h2{
+    position: absolute;
+    left: 45%;
+    
+}
+footer form input{
+    background-color: transparent;
+    color: white;
+    opacity: 0.3;
+
+    font-size: medium;
+    font-weight: 600;
+
+    border-radius: 10px;
+    border-style: solid;
+    width: 90%;
+    height: 200px;
+
+    
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+footer form label{
+    color: white;
+
+    font-size: medium;
+    font-weight: 600;
+    opacity: 0.5;
+    position: absolute;
+    left: 75px;
+}
+footer form button{
+    background-color: transparent;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    opacity: 0.8;
+    letter-spacing: 2px;
+    border-radius: 15px;
+    border-width: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+footer form button:hover{
+    background-color: white;
+    color: #f58a1b;
+}
+.infor_footer input{
+    width: 46%;
+    height: 40px;
+    margin-left: 20px;
+}
+.infor_footer{
+display: flex;
+margin-bottom: 5px;
+margin-left: 3%;
+margin-top: 16px;
+}
+
+.infor_footer label{
+    position: absolute;
+    bottom: -90%;
+
+}
+.email{
+    left: 52%;
+}
